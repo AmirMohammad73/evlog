@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Vazirmatn", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer utilities {
+  .rtl {
+    direction: rtl;
+  }
+  .ltr {
+    direction: ltr;
+  }
+}
+
+body {
+  font-family: "Vazirmatn", sans-serif;
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+/* Custom scrollbar for better look in standard UI */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8; 
+}

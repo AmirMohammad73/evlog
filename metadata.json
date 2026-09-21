@@ -1,0 +1,6 @@
+{
+  "name": "سامانه مدیریت مشکلات نرم‌افزاری",
+  "description": "سامانه پیگیری و ثبت گزارش مشکلات نرم افزارهای سازمانی برای مدیران، با قابلیت شخصی‌سازی فیلدها و خروجی اکسل.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
